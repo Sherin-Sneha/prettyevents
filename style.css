@@ -1,0 +1,115 @@
+.hero {
+  min-height: 100vh;
+  background-image: url("Hero.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.hero-tagline {
+  font-size: 3rem;
+}
+.btn-pink {
+  background: rgb(255, 179, 179);
+  border: 1px solid rgb(255, 102, 102);
+  color: rgb(255, 0, 85);
+}
+
+.text-tagline {
+  font-size: 2rem;
+}
+.btn-outline {
+  border: 2px solid rgb(236, 102, 158);
+}
+.btn-outline:focus {
+  background: rgb(255, 77, 121);
+}
+.btn-pink:focus {
+  background: rgb(255, 153, 179);
+}
+.navbar {
+  background: rgb(255, 153, 179);
+}
+.navbar-light {
+  color: rgb(255, 0, 85);
+}
+
+.dropdown-menu {
+  background: rgb(255, 153, 179);
+}
+
+.dropdown-item:active {
+  background: rgb(255, 153, 179);
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link:focus {
+  color: rgb(1, 1, 1);
+  background-color: rgb(255, 153, 179);
+}
+a {
+  color: rgb(1, 1, 1);
+  text-decoration: none;
+  background-color: transparent;
+}
+.btn-link {
+  font-weight: 500;
+  color: rgb(255, 153, 179);
+  text-decoration: none;
+}
+
+.intro-icon {
+  font-size: 10rem;
+  color: rgb(255, 153, 179);
+  margin: 0px auto;
+}
+
+.swiper-container {
+  width: 100%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.swiper-button-next,
+.swiper-button-prev {
+  color: rgb(255, 153, 179);
+}
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+#footer-links-container ul {
+  list-style: none;
+  padding-left: 0px !important;
+}
+
+#footer-links-container ul > :first-child {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+@media (min-width: 768px) {
+  .hero-tagline {
+    font-size: 5rem;
+  }
+  #footer-links-container ul {
+    padding-left: 30px !important;
+  }
+}
