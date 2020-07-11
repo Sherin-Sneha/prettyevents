@@ -23,6 +23,9 @@
 .root {
   --swiper-theme-color: rgb(255, 0, 85);
 }
+.btn-link:hover {
+  color: rgb(255, 0, 85);
+}
 .text-tagline {
   font-size: 2rem;
 }
