@@ -67,6 +67,11 @@ a {
   text-decoration: none;
   background-color: transparent;
 }
+a:hover {
+  color: rgb(1, 1, 1);
+  text-decoration: none;
+  background-color: transparent;
+}
 .btn-link {
   font-weight: 500;
   color: rgb(255, 153, 179);
