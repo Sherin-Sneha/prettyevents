@@ -57,6 +57,9 @@
   background: rgb(255, 153, 179);
 }
 
+.text-pinky{
+  color:rgb(255, 153, 179);
+}
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link:focus {
   color: rgb(1, 1, 1);
