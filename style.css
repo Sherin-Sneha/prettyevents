@@ -26,6 +26,10 @@
 .btn-link:hover {
   color: rgb(255, 0, 85);
 }
+.btn.focus, .btn:focus {
+    outline: 0;
+    box-shadow: 0 0 0 .2rem rgba(255, 153, 179,.25);
+}
 .text-tagline {
   font-size: 2rem;
 }
